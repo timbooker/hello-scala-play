@@ -1,8 +1,26 @@
+<<<<<<< HEAD
 logs
+=======
+# Extracted from https://github.com/ulrich/macaron-factory/blob/master/.gitignore
+# Ignore all dotfiles...
+.*
+# except for .gitignore
+!.gitignore
+
+# Ignore Play! working directory #
+db
+eclipse
+lib
+log
+logs
+modules
+precompiled
+>>>>>>> dffd88c25b47fcd9e5d48dbb84d9809722ef7f51
 project/project
 project/target
 target
 tmp
+<<<<<<< HEAD
 .history
 dist
 /.idea
@@ -13,3 +31,9 @@ dist
 /.project
 /RUNNING_PID
 /.settings
+=======
+test-result
+server.pid
+*.iml
+*.eml
+>>>>>>> dffd88c25b47fcd9e5d48dbb84d9809722ef7f51
